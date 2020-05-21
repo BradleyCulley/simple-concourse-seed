@@ -15,7 +15,7 @@ More about Fly is available here: https://concourse-ci.org/fly.html.
 
 #### Notes: 
 1. Do not check your actual credentials.yml file into version control. Store it somewhere secure, and transmit
-secrets in it in a secure manner. If you don't have experience with creating and managing SSH keys, ]
+secrets in it in a secure manner. If you don't have experience with creating and managing SSH keys,
 and other secrets, securely, seek out expert assistance.
 2. Private key in credentials file must have newline at the end
 3. Two of the available options for managing your repo SSH access for Concourse are:
