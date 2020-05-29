@@ -1,5 +1,8 @@
 ## A simple Concourse setup for a versioned pipeline:
 
+This is what the pipeline looks like once it's been set up and the two jobs have run at least once:
+![Alt](Simple_Versioned_Pipeline.png "Simple Versioned Pipeline")
+
 ### Prerequisites:
 1. Docker (https://www.docker.com/products/docker-desktop)
 
@@ -25,6 +28,3 @@ Both options are described here: https://developer.github.com/v3/guides/managing
 4. Please post any problems/questions you run into as issues on this repo, and I will respond to them
 5. Docker Compose file is from: https://concourse-ci.org/docker-compose.yml, 
 per documentation here: https://github.com/concourse/concourse
-
-This is what the pipeline looks like once it's been set up and the two jobs have run at least once:
-![Alt](Simple_Versioned_Pipeline.png "Simple Versioned Pipeline")
